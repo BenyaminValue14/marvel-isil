@@ -24,11 +24,11 @@ window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
 
-   if(window.scrollY > 650){
-      document.querySelector('.header').classList.add('active');
-   }else{
-      document.querySelector('.header').classList.remove('active');
-   };
+   //if(window.scrollY > 650){
+   //   document.querySelector('.header').classList.add('active');
+   //}else{
+   //   document.querySelector('.header').classList.remove('active');
+   //};
 
    let value = window.scrollY / 10;
    //document.querySelector('.home .mountain').style.bottom = `${-value}%`;

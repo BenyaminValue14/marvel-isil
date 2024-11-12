@@ -89,6 +89,8 @@ p {
   z-index: 1000;
   background: #000;
   padding: 1.5rem 9%;
+  
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,8 +133,8 @@ p {
   width: 4.5rem;
   line-height: 4.5rem;
   font-size: 2rem;
-  background: #fff;
-  color: #000;
+  background: transparent;
+  color: white;
   margin-left: .5rem;
   text-align: center;
   cursor: pointer;
@@ -556,9 +558,16 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
+.logo {
+  width: 180px;
+  display: flex;
+}
+.logo img {
+  width: 100%;
+}
 .blogs .box-container .box .content {
   padding-top: 2rem;
+  height: 390px;
 }
 
 .blogs .box-container .box .content h3 {
@@ -748,11 +757,12 @@ p {
 /*slider section*/
 section.slider {
   padding: 0;
+  padding-top: 76px;
 }
 .slider_home {
   position: relative;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1440px;
   margin-inline: auto;
   aspect-ratio: 384 / 149;
 }
@@ -761,7 +771,15 @@ section.slider {
   
   position: relative;
 }
-
+.slider .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
 .slider img {
   width: 100%;
   height: auto;
