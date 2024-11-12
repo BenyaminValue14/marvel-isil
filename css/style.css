@@ -744,3 +744,27 @@ p {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*slider section*/
+section.slider {
+  padding: 0;
+}
+.slider_home {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  aspect-ratio: 384 / 149;
+}
+.slider .item {
+  width: 100%;
+  
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+}

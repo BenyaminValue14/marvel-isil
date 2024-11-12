@@ -31,9 +31,9 @@ window.onscroll = () =>{
    };
 
    let value = window.scrollY / 10;
-   document.querySelector('.home .mountain').style.bottom = `${-value}%`;
-   document.querySelector('.home .content').style.bottom = `${value}%`;
-   document.querySelector('.home .moon').style.marginTop = `${-value}%`;
-   document.querySelector('.home .cloud-1').style.right = `${-value}%`;
-   document.querySelector('.home .cloud-2').style.left = `${-value}%`;
+   //document.querySelector('.home .mountain').style.bottom = `${-value}%`;
+   //document.querySelector('.home .content').style.bottom = `${value}%`;
+   //document.querySelector('.home .moon').style.marginTop = `${-value}%`;
+   //document.querySelector('.home .cloud-1').style.right = `${-value}%`;
+   //document.querySelector('.home .cloud-2').style.left = `${-value}%`;
 };
