@@ -192,7 +192,37 @@ p {
 .header .search-form label:hover {
   color: #0097e6;
 }
-
+.float-dark {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.float-dark h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  padding-top: 1.5rem;
+}
+.float-dark span {
+  color: #0097e6;
+}
+.float-dark p {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 2;
+  padding: 1.5rem 0;
+}
 .home {
   position: relative;
   overflow: hidden;
@@ -758,13 +788,14 @@ p {
 section.slider {
   padding: 0;
   padding-top: 76px;
+  aspect-ratio: 384 / 149;
 }
 .slider_home {
   position: relative;
   width: 100%;
   max-width: 1440px;
   margin-inline: auto;
-  aspect-ratio: 384 / 149;
+  
 }
 .slider .item {
   width: 100%;
